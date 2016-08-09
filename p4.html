@@ -1,0 +1,43 @@
+<h3>Tilt Game</h3>
+
+Now we are going to use the knowledge we gained in Project 2 to create our very own interactive tilt video game.
+
+<ol>
+  <li>Start by loading up the project you made during <strong>Project 2</strong>. It should provide you with a custom sprite that moves around the screen when you tilt the Arduino.</li>
+  <li>Now we need to add a custom background and a few more sprites that we will "collect" by tilting our character around the screen.
+    <p><img src="img/p4/game-background.png" alt="Sample game with background and sprites" /></p>
+    My game will feature a starfish that will move around underwater collecting muffins.
+  </li>
+  <li>Let's begin by programming the starfish. Make sure you have the starfish selected.
+    <p><img src="img/p4/sprite-selected.png" width=300 alt="New sprite highlighted" /></p>
+  </li>
+  <li>We will use the same code we used in Project 2, but this time let's make sure we can move the sprite along the x and y axis.
+    <p><img src="img/p4/block1.png" alt="Set x and y to tilt angle blocks" /></p>
+  </li>
+  <li>At this point you should be able to move your sprite around the screen by clicking on the green flag and tilting the Arduino. However, there is still something we are missing. We need to be able to "collect" the other sprites (in my example the muffins), and we should keep score.
+    <p>Go to the <strong>Data</strong> tab and click the <strong>Make a Variable</strong> button. In programming, we use variables to store information. In this example, the variable will be storing our score. Let's name our variable "score".</p>
+    <p><img src="img/p4/block2.png" alt="Creating a variable named score" /></p>
+  </li>
+  <li>The last thing that we will need to program on our main character is to reset the score each time we start the game. Since we start the game by clicking the green flag, this will be the best place to set the score back to 0.
+    <p><img src="img/p4/block3.png" alt="Resetting score at the start of the game" /></p>
+  </li>
+  <li>Now we still need to program it so that the main character can "collect" the other sprites and grant us points. First, select the other sprite that we want to program. In my example it is the muffin.
+    <p><img src="img/p4/block4.png" alt="Selecting the muffin sprite" /></p>
+  </li>
+  <li>Let's program the muffin to wait a second before appearing, then when the starfish touches it we will add a point and hide the muffin. After a second the muffin will reappear and can be collected again.
+    <p><img src="img/p4/block5.png" alt="Programming the muffin sprite" /></p>
+  </li>
+  <li>We can duplicate the muffin sprite (along with it's code) a few times so that we will have a few different sprites to pick up. Scatter them around the screen.
+    <p><img src="img/p4/block6.png" alt="Duplicating the muffin sprite" /></p>
+    <p><img src="img/p4/game.png" alt="Picture of the completed game" /></p>
+  </li>
+  <li>Now see if you can extend the game.<br />
+    <strong>Can you:</strong>
+    <ul class="checklist">
+      <li>Make the other sprites (muffins) reappear at different time intervals?</li>
+      <li>Add other sprites that are worth different point values? Maybe some that shouldn't be collected or they take away points?</li>
+      <li><strong>Advanced:</strong> Use the <img src="img/p4/random.png" height=25 alt="random block"> to make the sprite reappear at random intervals?</li>
+      <li><strong>Advanced:</strong> Use the <img src="img/p4/random-goto.png" height=30 alt="random go to block"> to make the sprite reappear at random locations?</li>
+    </ul>
+  </li>
+</ol>

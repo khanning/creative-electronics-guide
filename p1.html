@@ -1,0 +1,27 @@
+<h3>Hello, Arduino!</h3>
+
+<p>In this project we will explore how to communicate between the Arduino board and Scratch programming. To do this, we will program the Arduino to turn an LED light on and off at a specified interval.</p>
+
+<ol>
+  <li>Open the <a href="http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js" target="_blank">Arduino 101 extension</a> on ScratchX. You can also get to the extension by going to <a href="http://scratchx.org" target="_blank">scratchx.org</a> and clicking on "See all extensions". The Arduino 101 extension will be towards the top of the list.</li>
+  <li>Plug your Arduino board into your computer's USB port. After a few seconds the indicator light under <b>More blocks</b> should change from yellow to green.</li>
+  <li>Let's start by grabbing a green flag and a forever block since we will want our blink program to run forever (or until we stop the program).
+    <p><img src="img/p1/block1.png" alt="Green flag and forever block" /></p>
+  </li>
+  <li>One nice feature of our Arduino board is that there is a built-in green LED permanently connected to pin #13 of the Arduino. So for this program to work, all we have to do is tell the Arduino to turn pin 13 on then off. We need to use the <b>wait</b> blocks to slow things down otherwise it would blink so fast our eyes wouldn't be able to see it!
+    <p><img src="img/p1/block2.png" alt="Blocks toggling pin 13" /></p>
+  </li>
+  <li>When you click the green flag you should see one of the green LEDs on the Arduino start blinking on and off.
+    <p><img src="img/p1/block3.png" alt="Green flag with mouse pointer" /></p>
+    <p><img src="img/p1/blink.gif" width=400 alt="Arduino blinking on and off" /></p>
+  </li>
+  <li>Now see if you can modify this code to change the behavior of the LED light.<br />
+    <strong>Can you:</strong>
+    <ul class="checklist">
+      <li>Make the LED blink faster or slower?</li>
+      <li>Make the LED turn on and off at different speeds?</li>
+      <li><strong>Advanced:</strong> Make the LED blink at random intervals?</li>
+      <li><strong>Advanced:</strong> Use a variable to set the speed of the blink pattern?</li>
+    </ul>
+  </li>
+</ol>

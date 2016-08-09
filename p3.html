@@ -1,0 +1,33 @@
+<h3>Tilt and Say</h3>
+
+<p>In this project we will take a look at the built in tilt sensor on the Arduino 101. Using the tilt sensor, we can control a character on the screen in Scratch by just moving the Arduino back and forth. The orientation of the 101 will match the graphic below.</p>
+
+<img src="img/p3/101-orientation.png" width=400 alt="Showing the axis orientation of the 101" />
+
+<ol>
+  <li>Let's begin by designing a custom sprite that we will control in Scratch. You can choose to make any sprite, but keep in mind that we will use this sprite later on to make our very first tilt game!
+    <p><img src="img/p3/new-sprite.png" alt="mouse clicking on new sprite button" /></p>
+  </li>
+  <li>Now with our new sprite selected, let's program it to move as we tilt the Arduino.
+    <p><img src="img/p3/sprite-selected.png" width=300 alt="New sprite highlighted" /></p>
+  </li>
+  <li>We will start by bringing out the green flag and forever blocks since we will want our sprite to always follow the tilt.
+    <p><img src="img/p1/block1.png" alt="Green flag and forever block" /></p>
+  </li>
+  <li>Now let's use the <strong>set x to</strong> block along with the Arduino <strong>tilt angle</strong> block to make our sprite move.
+    <p><img src="img/p3/block2.png" alt="Set x to tilt angle blocks" /></p>
+  </li>
+  <li>When you click the green flag the sprite should start moving back and forth across the stage. If the sprite doesn't respond to the tilt, check the indicator light under <strong>More blocks</strong>. If it is not green, go back to <strong>Preparation</strong> or <strong>Project 1</strong> for help getting connected.</li>
+  <li>To get a better idea of what the <strong>tilt angle</strong> block is actually doing, you can make the character say the current value while it moves around the screen.
+    <p><img src="img/p3/block3.png" alt="Set x to tilt angle blocks and say" /></p>
+  </li>
+  <li>Now see if you can modify this code to change how the sprite responds to tilt.<br />
+    <strong>Can you:</strong>
+    <ul class="checklist">
+      <li>Make the sprite move faster or slower with the tilt?</li>
+      <li>Make the sprite move along the y axis instead of the x axis?</li>
+      <li><strong>Advanced:</strong> Does the way you are holding the Arduino feel right to you? If not, can you change the tilt angle direction to make it feel more natural?</li>
+      <li><strong>Advanced:</strong> Make the sprite move along the x and y axis at the same time?</li>
+    </ul>
+  </li>
+</ol>

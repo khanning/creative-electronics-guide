@@ -1,0 +1,57 @@
+<h3>LED Cloud</h3>
+
+<p>In this project we will be building our very first electrical circuit! We will be using LEDs to build our own lightning cloud simulation.</p>
+
+In addition to the usual parts, for this project you will need:
+<ul class="checklist">
+  <li><a href="https://www.adafruit.com/products/754" target="_blank">White LEDs</a> - They come in 3mm, 5mm, 10mm sizes.</i></li>
+  <li><a href="https://www.adafruit.com/products/2780" target="_blank">220ohm resistors</a></li>
+  <li><a href="https://www.adafruit.com/products/758" target="_blank">Jumper wires</a></li>
+  <li><a href="https://www.adafruit.com/products/65" target="_blank">Breadboard</a></li>
+  <li>Fiberfill (poly stuffing) or cotton balls</li>
+</ul>
+
+<h3>Arduino Pins</h3>
+
+The Arduino has two different kinds of I/O (Input/Output) pins, digital and analog.
+
+<p>Digital pins are numbered 0 - 13. These pins allow us to turn things on or off (output) or check to see if something is switched on (input), like a button being pressed. If we need to read information from a sensor, like the brightness of a light sensor, we will need to use the analog pins.</p>
+
+<p>Analog pins are numbered A0 - A5. These are used to read values from analog sensors. An analog sensor is one that has many different states. Unlike a button, which can only be on or off, something like a light sensor can provide a range of different values.</p>
+
+<img src="img/p5/101-pins.png" alt="Arduino 101 pin diagram" />
+
+<h3>Breadboard</h3>
+
+<p>A breadboard makes it easy to connect components together. Each row of 5 holes is interconnected. So when you put the leg of a component in the same row it is like connecting them together with wires. See the diagram below which shows how the rows are connected</p>
+
+<img src="img/p5/breadboard.png" alt="Image showing breadboard rows" />
+
+<h3>The circuit</h3>
+
+<p>This is the circuit that you will need to build. The color of the wires aren't important. They are only colored so you can keep track of things. Notice the 220ohm resistor between the LED and digital pin #9. This is used to limit the amount of electricity that is flowing through the LED. Without the resistor, the LED would still light up, but the Arduino might get damaged over time.</p>
+
+<p><strong>TIP:</strong> If your LED doesn't light up you might have it in backwards. No problem! Just flip it around and try again!</p>
+
+<img src="img/p5/circuit.png" alt="circuit of LED and 220 ohm resistor" />
+
+<ol>
+  <li>Build the circuit above and connect the Arduino to a <a href="http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js" target="_blank">new Arduino 101 project</a></li>
+  <li>We will use the following code to make the LED blink on and off
+    <p><img src="img/p5/blocks1.png" alt="Scratch blocks turing pin 9 on and off" />
+  </li>
+  <li>Click the green flag and make sure your LED is flashing on and off. If it isn't flashing, go back and look at the circuit diagram above.</li>
+  <li>Now cover up the circuit using some fiber fill or pulled apart cotton balls. You can decorate the rest of the cloud with some tissue or construction paper to make it look like part of the sky.
+    <p><img src="img/p5/LEDCloud_small.gif" alt="GIF of LED cloud" /></p>
+  </li>
+
+  <li>Now see if you can make the cloud more realistic.<br />
+    <strong>Can you:</strong>
+    <ul class="checklist">
+      <li>Record sound effects that sound like thunder and play them with the <img src="img/p5/blocks2.png" height=25 alt="play sound block" /> block?</li>
+      <li>Change the on off pattern of the LED to make it look more like lightning?</li>
+      <li><strong>Advanced:</strong> Use the <img src="img/p4/random.png" height=25 alt="random block"> to make the lightning happen and random times?</li>
+      <li><strong>Advanced:</strong> Wire up more than one LED and flash them at different times?</li>
+    </ul>
+  </li>
+</ol>

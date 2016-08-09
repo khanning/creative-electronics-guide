@@ -1,0 +1,124 @@
+body {
+  font-family: 'Arimo', sans-serif;
+  margin: 0;
+}
+
+#content-container {
+  background-color: #fff;
+  width: 100%;
+  min-width: 400px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+#header {
+  font-family: 'Indie Flower', cursive;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  padding: 1.5%;
+}
+
+#content {
+  width: 100%;
+  background-color: #fff;
+}
+
+dl {
+  margin-top: 0;
+}
+
+dt {
+  height: 50px;
+  line-height: 50px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5em;
+  background-color: #005f5f;
+}
+
+dt a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 0 2%;
+}
+
+dt a:hover {
+  text-shadow: 0 0 0.1em #fff;
+}
+
+dd {
+  margin: 10px 3% 40px 3%;
+}
+
+dd .checklist {
+  padding-left: 20px;
+}
+
+dd .checklist li {
+  list-style-type: none;
+}
+
+dd .checklist li:before {
+  content: "\2610";
+  margin-right: 10px;
+}
+
+dd ol li {
+  padding-top: 10px;
+}
+
+#nav-start {
+  background-color: #2980b9;
+}
+
+#nav-prep {
+  background-color: #2ecc71;
+}
+
+#nav-p1 {
+  background-color: #e67e22;
+}
+
+#nav-p2 {
+  background-color: #9b59b6;
+}
+
+#nav-p3 {
+  background-color: #e74c3c;
+}
+
+#nav-p4 {
+  background-color: #2980b9;
+}
+
+#nav-p5 {
+  background-color: #27ae60;
+}
+
+#nav-p6 {
+  background-color: #d35400;
+}
+
+#nav-p7 {
+  background-color: #8e44ad;
+}
+
+#nav-p8 {
+  background-color: #c0392b;
+}
+
+#nav-footer {
+  height: 30px;
+  line-height: 30px;
+  font-size: .8em;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+#nav-footer a {
+  display: inline;
+  padding: 0;
+  font-weight: bold;
+}

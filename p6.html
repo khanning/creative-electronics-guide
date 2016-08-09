@@ -1,0 +1,37 @@
+<h3>Light Sensor</h3>
+
+<p>Now that we have looked at connecting an output, an LED, to the Arduino, let's look at connecting an input. We are going to use a part called a photo cell. A photo cell acts like the resistor we used in our LED cloud design, expect the amount of "resistance" changes depending on how much light is shining on it.</p>
+
+In addition to the usual parts, for this project you will need:
+<ul class="checklist">
+  <li><a href="https://www.adafruit.com/products/161" target="_blank">Photo cell</a> - We will use this as our light sensor.</i></li>
+  <li><a href="https://www.adafruit.com/products/2784" target="_blank">10K ohm resistors</a></li>
+  <li><a href="https://www.adafruit.com/products/758" target="_blank">Jumper wires</a></li>
+  <li><a href="https://www.adafruit.com/products/65" target="_blank">Breadboard</a></li>
+</ul>
+
+<h3>The Circuit</h3>
+
+<p>This time we are going to use the analog pin so you will need to flip to the other side of the Arduino.</p>
+
+<img src="img/p6/circuit.png" alt="LDR circuit" />
+
+<ol>
+  <li>Build the circuit above and connect the Arduino to a <a href="http://scratchx.org/?url=https://llk.github.io/arduino-101/arduino101_serial_extension.js" target="_blank">new Arduino 101 project</a></li>
+  <li>Create a sprite that will represent a light source. For my example I created a sun on top of a beach background.
+    <p><img src="img/p6/background.png" alt="sun on beach in Scratch" /></p>
+  </li>
+  <li>We will use the following code to set the make the sun appear and disappear as light hits our photo cell sensor. The ghost effect sets how transparent the sun sprite will be. The <strong>read analog pin A0</strong> block will read the light sensor connected to pin A0 and return a value between 0 - 100 depending on the brightness.
+    <p><img src="img/p6/blocks1.png" alt="Blocks to read light sensor" /></p>
+  </li>
+  <li>Now try covering up the light sensor with you hand or pointing a flashlight at it. How does the sprite change?</li>
+  <li>Now see how you can modify the code.<br />
+    <strong>Can you:</strong>
+    <ul class="checklist">
+      <li>Make the sensor more or less sensitive by using the multiplication or division <strong>operator</strong> blocks?</li>
+      <li>Make the sprite move around the screen using the light sensor reading?</li>
+      <li><strong>Advanced:</strong> Use the <img src="img/p6/blocks2.png" height=40 alt="when analog sensor block"> to make something happen when it gets light or dark?</li>
+      <li><strong>Advanced:</strong> Incorporate an LED to light it up if it gets too dark out?</li>
+    </ul>
+  </li>
+</ol>
